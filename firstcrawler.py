@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # Prompt the user to enter the URL of the web page to crawl
+
 url = input("Enter the URL of the web page to crawl: ")
 
 # Send an HTTP GET request to retrieve the web page content
